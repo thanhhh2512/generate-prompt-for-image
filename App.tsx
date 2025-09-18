@@ -124,54 +124,6 @@ const App: React.FC = () => {
               />
             </div>
           </div>
-
-          <footer className="text-center mt-12 py-4 text-gray-500 dark:text-gray-400 text-sm">
-            <div className="max-w-md mx-auto bg-amber-50/80 dark:bg-amber-900/50 backdrop-blur-sm border-2 border-amber-400 dark:border-amber-600 rounded-xl p-6 shadow-lg mb-8">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mx-auto text-amber-600 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5h3m-6.75 0h10.5c.621 0 1.125-.504 1.125-1.125v-6.75c0-.621-.504-1.125-1.125-1.125H6.375c-.621 0-1.125.504-1.125 1.125v6.75c0 .621.504 1.125 1.125 1.125z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 10.5V6.375c0-1.036-.84-1.875-1.875-1.875h-3.75c-1.036 0-1.875.84-1.875 1.875V10.5m0 0v5.625" />
-              </svg>
-              <p className="mt-4 font-bold text-lg text-amber-800 dark:text-amber-200">Nếu bạn thấy App hữu ích, hãy ủng hộ tác giả một ly cà phê nhé.</p>
-              <div className="mt-4 space-y-2 text-base">
-                <p>
-                  <strong>Momo:</strong>
-                  <span className="ml-2 font-mono bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-md text-gray-800 dark:text-gray-200">0949435512</span>
-                </p>
-                <p>
-                  <strong>Liên hệ công việc Zalo:</strong>
-                  <span className="ml-2 font-mono bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-md text-gray-800 dark:text-gray-200">0949435512</span>
-                </p>
-              </div>
-            </div>
-            
-            <div className="space-y-4 pt-8 border-t border-gray-200 dark:border-gray-700">
-              <div>
-                <p>Tạo prompt sáng tạo cho AI tạo ảnh. Prompt Generator - Tự hào Việt Nam.</p>
-                <p className="mt-2">
-                  Phát triển bởi <strong>Võ Quốc Hoàng</strong> - 
-                  <a 
-                    href="https://www.facebook.com/voquochoang82" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-500 font-semibold transition-colors"
-                  >
-                    {' '}Facebook
-                  </a>
-                </p>
-              </div>
-              {visitCount !== null && (
-                <div>
-                  <p className="flex items-center justify-center space-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-                      <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.022 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>Lượt truy cập: {visitCount.toLocaleString('vi-VN')}</span>
-                  </p>
-                </div>
-              )}
-            </div>
-          </footer>
         </main>
       </div>
 
